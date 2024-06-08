@@ -1,0 +1,172 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+    
+}
+
+body {
+    margin: 0;
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <------------------------Barra de Navegacion---------------------------------------> */
+header {
+    background-color:#2972bc;
+    padding: 20px 0;
+}
+
+.nombre_centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f7f2f2;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+/* <----------------------------------------------------------------------------> */
+
+/* <---------------------------Cartas--de--nosotros------------------------------> */
+.nosotros{ 
+    display: flex; 
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px; 
+} 
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: center;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: #f8f6f6; /* Color de fondo blanco */
+}
+
+.imagen-circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+.titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+    padding: 10px;
+    flex: 1 1 100%;
+}
+/* <----------------------------------------------------------------------------> */
+
+
+/* <-------------------------------Pie de Pagina--------------------------------> */
+footer {
+    background-color: #093969;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pie_pagina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* <----------------------------------------------------------------------------> */
+
+/* <--------------------------Home Descripcion----------------------------------> */
+
+/* <------------------------------------------------------------> */
+
+.contenedor_Home {
+    display: flex;
+    width: 100%;
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px;
+    
+    
+}
+
+.texto_Home1 {
+    text-align: justify;
+    font-family: 'Helvetica', Times, serif;
+    font-size: 15px;
+    float: left;
+    width: 30%;
+    color: rgb(0, 0, 0); /* Agregando el color blanco */
+    background-color: rgb(109, 243, 209); /* Agregando el color de fondo blanco */
+    padding: 10px; /* Agregando un relleno alrededor del texto */
+    border-radius: 10px; /* Agregando bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregando sombra */
+}
+
+.izquierda {
+    flex: 0 0 auto;
+    margin-right: 100px;
+}
+
+.texto_Home {
+    text-align: justify;
+    font-size: 15px;
+    width: 70%;
+}
+
+
+/* <------------------------------------------------------------> */
+
+/* <------------------------------------------------------------> */
+.derecha {
+    float: right;
+    margin-left: 10px;
+    margin-top: 80px;
+    width: 600px; 
+    height: 400px;
+}
+
+.texto_Home2 {
+    text-align: justify;
+    font-family: 'Helvetica', Times, serif;
+    font-size: 15px;
+    float: left;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contenedor_Home2 {
+    display: flex;
+    width: 100%;
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px; 
+}
+/* <------------------------------------------------------------> */
+
+/* <----------------------------------------------------------------------------> */

@@ -1,0 +1,110 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+    
+}
+/* <------------------------Barra de Navegacion---------------------------------------> */
+header {
+    background-color:#2972bc;
+    padding: 20px 0;
+}
+
+.nombre_centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f7f2f2;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+/* <----------------------------------------------------------------------------> */
+
+/* <-------------------------------Pie de Pagina--------------------------------> */
+footer {
+    background-color: #093969;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pie_pagina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* <----------------------------------------------------------------------------> */
+
+.campos {
+    height: 40px;
+    background: #2a1a7e99;
+    border-radius: 8px;
+    color: #000;
+    border: 4px solid #000;
+    font-size: 1.1rem;
+
+    &::-webkit-textfield-decoration-container {
+        color: #000;
+        padding: 0.5rem 1rem;
+    }
+    &::placeholder {
+        color: #000;
+        font-weight: 400;
+    }
+}
+
+textarea {
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 110%;
+    margin: 0.25rem 0;
+    background: #2a1a7e99;
+    color: #000;
+    border: 4px solid #000;
+}
+
+textarea {
+    width: 500px;
+    min-height: 100px;
+    resize: none;
+    outline: 1px solid #ccc7;
+    padding: 0.25rem;
+    
+    &::placeholder {
+        color: #000;
+        font-weight: 400;
+    }
+}
+
+.btn {
+    color: rgb(255, 255, 255); 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: #00002E; 
+    border: 1px solid #fff;
+    border-radius:50px;
+}
+
+.Letras{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
