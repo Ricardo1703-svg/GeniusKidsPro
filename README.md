@@ -1,5 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 # Equipo de Estudiantes PROGRAMACION COMPUTACIONAL IV
 <div align="center">
   <img src="https://facturacion.ugb.edu.sv/img/ugb_icon_hor_dark.f6e16e97.png" alt="Logo UGB">
@@ -13,4 +11,26 @@
 - **Nombre:** LUISA FERNANDA MEDRANO CRUZ
 ---
 
-¡Gracias por visitar nuestro equipo!
+<div align="center">
+  <b>
+      GeniusKids
+  </b>
+
+<b>Descripción</b>
+GeniusKids es una un sitio web educativa, diseñada específicamente para niños, con el
+objetivo de hacer el aprendizaje de las asignaturas básicas una experiencia divertida e
+interactiva. A través de una estructura de fases de acuerdo con su edad, los niños pueden
+avanzar en su conocimiento y habilidades de manera progresiva, adaptándose a su ritmo
+de aprendizaje
+
+<b>Versión de herramientas utilizadas</b>
+<li>
+    <ul>PHP: El lenguaje principal en el que está escrito Laravel.</ul>
+    <ul>HTML: Lenguaje de marcado para estructurar el contenido de las páginas web.</ul>
+    <ul>CSS: Lenguaje de estilo para diseñar y darle apariencia a las páginas web.</ul>
+    <ul>GITHUB: Es donde se almacenara nuestro proyecto para el desarrollo cooperativo</ul>
+</li>
+    
+    
+    
+</div>
