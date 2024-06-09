@@ -13,13 +13,13 @@
 
 <div align="center">
   <b>
-      GeniusKids
+      ## GeniusKids
   </b>
 </div>
 <br>
 <div align="center">
   <b>
-      Descripción
+      ## Descripción
   </b>
 </div>
 GeniusKids es una un sitio web educativa, diseñada específicamente para niños, con el
