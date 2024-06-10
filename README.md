@@ -36,7 +36,8 @@ de aprendizaje.
   </b>
 </div>
 <ul>
-    <li>PHP: El lenguaje principal en el que está escrito Laravel.</li>
+    <li>PHP: El lenguaje principal en el que está escrito Laravel. Version: 8.2.12</li>
+    <li>Laravel Version: 11.8.0</li>
     <li>HTML: Lenguaje de marcado para estructurar el contenido de las páginas web.</li>
     <li>CSS: Lenguaje de estilo para diseñar y darle apariencia a las páginas web.</li>
     <li>GITHUB: Es donde se almacenara nuestro proyecto para el desarrollo cooperativo</li>
