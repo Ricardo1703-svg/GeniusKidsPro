@@ -27,6 +27,9 @@
         <img src="/img/App_img/google.png"width="300" height="200"> 
         <img src="/img/App_img/apple.png"width="400" height="200"> 
     </center>
+    <?php
+    echo phpinfo()
+    ?>
     
     @include('includes.espacios')
     @include('includes.footer')
